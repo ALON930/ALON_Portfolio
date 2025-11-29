@@ -1,0 +1,172 @@
+* {
+    margin:0;
+}
+header,nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+a {
+   text-decoration: none;
+   color: white;
+}
+nav{gap: 20px;
+}
+button{
+    border-color: blue;
+    background-color: white;
+    color: blue ;
+    font-weight: bold;
+    border: 3px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.premier  button{
+    background-color:blue;
+    color: white;
+}
+.btn {
+    display: block;
+}
+section{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.deux img{
+    justify-content: space-between;
+    height: 300px;
+    border-radius: 80%;
+    float: right;
+    border: 10px solid;
+    border-color: blue;
+}
+ img{
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.deux img:hover {
+  transform: scale(1.2); 
+}
+
+.premier, .deux {
+    flex: 1;
+    text-align: start;
+    align-items: center;
+     flex-direction: column;
+     gap: 10px;
+}
+.trois{
+    display: block;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    height: 250px;
+   position: relative;
+   border-radius: 50px;
+   margin: 30px;
+}
+.trois {
+  transition: opacity 0.5s ease;
+}
+
+.trois:hover {
+   transform: scale(1.1);
+}
+.trois h2{
+    font-size: 3rem;
+}
+.trois button{
+    border-radius: 50%;
+    background-color: blueviolet;
+    color: white;
+    height: 75%;
+}
+.trois p{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.quatre {
+ display: block;
+}
+.quatre div{
+    text-align: center;
+}
+.quatre .divv {
+    display: flex;
+}
+.divv div{
+    margin: 30px;
+    text-align: start;
+    border: 10px solid;
+    border-color: blue;
+    border-radius: 10%;
+}
+.quatre h2{
+    font-size: 3rem;
+}
+.quatre .divv h1{
+    font-size: 3rem;
+}
+.quatre .divv div:hover {
+   transform: scale(1.2);
+}
+.cinq{
+    display: block;
+    text-align: center;
+     gap: 200px;
+    height: 50%;
+    background: linear-gradient(to bottom,
+    rgba(34, 0, 255, 0.897) 0%, 
+    rgba(222, 2, 251, 0.984) 50%, 
+    transparent 60%,          
+    transparent 40% );
+    margin: 20px;
+}
+.cinq h2{
+    font-size: 3rem;
+}
+.divb{
+    display: flex;
+    justify-content:center;
+}
+.divm{
+    margin-top: 50px;
+}
+.divb h3{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.divn h3{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.six{
+    display: block;
+    justify-items: center;
+    border-radius: 50px;
+     background: linear-gradient(to top,
+    rgba(34, 0, 255, 0.897) 5%, 
+    rgba(222, 2, 251, 0.984) 40%, 
+    transparent 60%,          
+    transparent 10% );
+    margin: 20px;
+}
+.six h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.contacts{
+    display: flex;
+    gap: 300px;
+}
